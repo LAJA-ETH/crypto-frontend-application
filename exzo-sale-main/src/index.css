@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Chakra Petch", sans-serif;
+}
+
+@layer base {
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+body {
+  @apply flex min-h-screen flex-col bg-[#020d11] text-white;
+}
+
+.swiper-wrapper {
+  @apply items-center lg:justify-between;
+}
+
+.gradient-border {
+  @apply relative;
+}
+
+.gradient-border::before {
+  @apply absolute inset-0 rounded-2xl p-0.5 transition-all duration-300;
+  content: "";
+  background: linear-gradient(
+    160deg,
+    #3e1f5e 20%,
+    rgba(255, 255, 255, 0.3) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+body {
+  /* CSS Variables that may have been missed get put on body */
+  --tw-bg-opacity: 1;
+  --tw-bg-opacity: 1;
+  --tw-bg-opacity: 1;
+  --tw-text-opacity: 1;
+  --tw-bg-opacity: 1;
+  --tw-text-opacity: 1;
+}
+
+* {
+  box-sizing: border-box;
+  border: 0 solid #e5e7eb;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.inset-0 {
+  inset: 0;
+}
+
+.bottom-10 {
+  bottom: 2.5rem;
+}
+
+.bg-slate-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 250 252 / var(--tw-bg-opacity));
+}
+
+.bg-bottom {
+  background-position: bottom;
+}
+
+.index_beams__yWcJT {
+  background-image: url(https://tailwindcss.com/_next/static/media/hero@75.b2469a49.jpg);
+  background-size: 150rem;
+}
+
+:is(.dark .dark\:bg-\[\#0B1120\]) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(11 17 32 / var(--tw-bg-opacity));
+}
+
+.dark .index_beams__yWcJT {
+  background-image: url(https://tailwindcss.com/_next/static/media/hero-dark@90.dba36cdf.jpg);
+  background-size: 86.125rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.buy-modal-border {
+  border: 0 solid #e5e7eb;
+}
+
+.bg-slate-800 {
+  --tw-bg-opacity: 0.3;
+  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
+  border: 1px rgba(145, 172, 240, 0.3);
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-backdrop-brightness: ;
+  --tw-backdrop-contrast: ;
+  --tw-backdrop-grayscale: ;
+  --tw-backdrop-hue-rotate: ;
+  --tw-backdrop-invert: ;
+  --tw-backdrop-opacity: ;
+  --tw-backdrop-saturate: ;
+  --tw-backdrop-sepia: ;
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0
+    var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0
+    calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  --tw-ring-color: #ffffff1a;
+  --tw-backdrop-blur: blur(8px);
+}

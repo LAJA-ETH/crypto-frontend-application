@@ -1,0 +1,40 @@
+<svg width="41" height="47" xmlns="http://www.w3.org/2000/svg" fill="none">
+ <defs>
+  <filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="49.2316" width="42.9179" y="0" x="0.09642" id="filter0_d_112_11811">
+   <feGaussianBlur stdDeviation="0.45179"/>
+  </filter>
+  <clipPath id="clip0_112_11811">
+   <rect id="svg_1" x="59.8674" y="11.2698" fill="white" height="24.5405" width="15.702"/>
+  </clipPath>
+  <clipPath id="clip1_112_11811">
+   <rect id="svg_2" x="235.39" y="11.2698" fill="white" height="24.5405" width="15.702"/>
+  </clipPath>
+  <linearGradient y2="-0.00654" x2="0.09553" y1="0.89735" x1="1.16242" id="paint0_linear_112_11811">
+   <stop stop-color="white"/>
+   <stop stop-color="#D5D5D5" offset="1"/>
+  </linearGradient>
+  <linearGradient y2="0.89712" x2="-0.02068" y1="0.26464" x1="1.06907" id="paint1_linear_112_11811">
+   <stop stop-color="#D4D4D4"/>
+   <stop stop-color="#F9F9F9" offset="1"/>
+  </linearGradient>
+  <linearGradient y2="-0.0261" x2="0.76603" y1="1.11398" x1="0.04512" id="paint2_linear_112_11811">
+   <stop stop-color="white"/>
+   <stop stop-color="#D4D4D4" offset="1"/>
+  </linearGradient>
+  <linearGradient y2="1" x2="0.5" y1="0" x1="0.5" id="paint3_linear_112_11811">
+   <stop stop-color="#DFDFDF"/>
+   <stop stop-opacity="0.49" stop-color="#A4A4A4" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_16" filter="url(#filter0_d_112_11811)">
+   <path id="svg_17" fill="black" d="m19.1483,35.9164c-2.0142,0 -3.9631,-0.2725 -5.8137,-0.7847c0.2181,2.2704 0.6544,4.5227 1.3089,6.7277c6.7627,-1.6238 12.9182,-5.1584 17.7066,-10.2005l-0.1018,-0.1053c-3.6504,2.739 -8.1843,4.3628 -13.1036,4.3628l0.0036,0z" clip-rule="evenodd" fill-rule="evenodd" opacity="0.1"/>
+   <path id="svg_18" fill="url(#paint0_linear_112_11811)" d="m30.8289,5.92847l-10.2749,-5.92847c-2.9996,3.61811 -5.2538,7.74115 -6.69,12.1221c7.9044,1.6492 14.8889,5.8013 20.0809,11.5954c3.0796,3.4365 5.5265,7.4469 7.1626,11.8497l0,-23.7103l-0.0036,0l-10.2713,-5.92843l-0.0037,0z" clip-rule="evenodd" fill-rule="evenodd"/>
+   <path id="svg_19" fill="#A4A4A4" d="m17.4299,4.382c0.022,-0.03647 0.0477,-0.07294 0.0696,-0.10942l-0.0696,0.10942z" clip-rule="evenodd" fill-rule="evenodd" opacity="0.3"/>
+   <path id="svg_20" fill="url(#paint1_linear_112_11811)" d="m13.8526,35.2951c-4.5157,0.9481 -9.21688,1.0607 -13.8526,0.2725l10.2786,5.9284l10.2786,5.9285l10.2749,-5.9285l10.2786,-5.9284c-1.6362,-4.4064 -4.0831,-8.4169 -7.1627,-11.8497c-5.381,6.0156 -12.4746,9.9825 -20.0881,11.5772l-0.0073,0z" clip-rule="evenodd" fill-rule="evenodd"/>
+   <path id="svg_21" fill="url(#paint2_linear_112_11811)" d="m0,11.8572l0,23.7139c4.63572,0.7882 9.3369,0.672 13.8526,-0.2725c-2.5233,-7.6648 -2.4142,-15.7838 0.0073,-23.1726c1.4398,-4.38094 3.6904,-8.50399 6.69,-12.12209l-10.2786,5.92846l-10.2713,5.92483z" clip-rule="evenodd" fill-rule="evenodd"/>
+   <path id="svg_22" fill="url(#paint3_linear_112_11811)" d="m5.54712,20.696c-1.34527,5.0094 -1.64341,10.2876 -0.85806,15.4169c3.04685,0.1126 6.08284,-0.1489 9.04234,-0.7701c-2.5232,-7.6649 -2.4142,-15.7838 0.0073,-23.1726c1.4398,-4.38095 3.6904,-8.504 6.69,-12.1221c-7.5626,4.87863 -12.64916,12.3292 -14.88158,20.6479z" clip-rule="evenodd" fill-rule="evenodd" opacity="0.3"/>
+  </g>
+ </g>
+</svg>
